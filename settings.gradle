@@ -1,6 +1,8 @@
 pluginManagement {
     repositories {
-        maven { url 'https://artifactory.dbgcloud.io/artifactory/plugins.gradle.org/' }
+        maven {
+            url = uri("https://artifactory.dbgcloud.io/artifactory/repo1/")
+        }
         gradlePluginPortal()
         mavenCentral()
     }
