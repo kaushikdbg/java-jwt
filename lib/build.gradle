@@ -3,7 +3,6 @@ buildscript {
         maven {
             url = uri("https://artifactory.dbgcloud.io/artifactory/repo1/")
         }
-        mavenCentral()
     }
 
     dependencies {
