@@ -17,7 +17,7 @@ plugins {
     id 'checkstyle'
     id 'me.champeau.gradle.japicmp' version '0.4.6'
     id 'maven-publish'
-    id 'org.cyclonedx.bom' version '2.4.1'
+    id 'org.cyclonedx.bom' version '1.6.1'
 }
 
 sourceSets {
